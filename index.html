@@ -4,38 +4,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Coming Soon</title>
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        background-color: #f5f5f5;
-        color: #333;
-      }
-      .container {
-        text-align: center;
-        padding: 2rem;
-      }
-      h1 {
-        font-size: 3rem;
-        margin-bottom: 1rem;
-      }
-      p {
-        font-size: 1.2rem;
-        color: #666;
-      }
-    </style>
+    <title>StoltzStack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/blog.css">
   </head>
   <body>
-    <div class="container">
-      <h1>Coming Soon</h1>
-      <p>Something exciting is in the works. Stay tuned!</p>
-    </div>
+    <header class="header">
+      <div class="header-container">
+        <a href="index.html" class="logo">StoltzStack</a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="blog.html" class="nav-link">Blog</a>
+          <a href="tools.html" class="nav-link">Tools</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Build Better Websites<br>Faster & Easier</h1>
+          <p>Free web design and development resources for developers, designers, and creators. Learn modern techniques, explore tools, and create stunning websites.</p>
+          <div class="hero-buttons">
+            <a href="blog.html" class="btn">Browse Posts</a>
+            <a href="about.html" class="btn btn-secondary">About Me</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-posts">
+        <h2>Featured Posts</h2>
+        <div class="blog-grid">
+          <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
+            <div class="blog-content">
+              <h2>Building a Modern Web Application</h2>
+              <p>A comprehensive guide to creating responsive, accessible, and performant web applications using modern tools and techniques.</p>
+              <a href="example-blog-post.html" class="read-more">Read More</a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
+            <div class="blog-content">
+              <h2>Getting Started with Web Development</h2>
+              <p>Learn the basics of HTML, CSS, and JavaScript to start your web development journey. Discover the fundamental concepts that will help you build modern websites.</p>
+              <a href="blog-post-template.html" class="read-more">Read More</a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
+            <div class="blog-content">
+              <h2>The Future of AI</h2>
+              <p>Exploring the latest developments in artificial intelligence and machine learning. Understanding how these technologies are shaping our future.</p>
+              <a href="blog-post-template.html" class="read-more">Read More</a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
+            <div class="blog-content">
+              <h2>Best Practices for Clean Code</h2>
+              <p>Tips and tricks for writing maintainable and efficient code. Learn how to write code that's easy to understand and maintain.</p>
+              <a href="blog-post-template.html" class="read-more">Read More</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

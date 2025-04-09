@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Building a Modern Web Application - StoltzStack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/blog-post.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <a href="index.html" class="logo">StoltzStack</a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="blog.html" class="nav-link active">Blog</a>
+          <a href="tools.html" class="nav-link">Tools</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="blog-post-container">
+      <article class="blog-post">
+        <div class="blog-post-header">
+          <div class="blog-post-meta">
+            <span class="post-date">April 9, 2024</span>
+            <span class="post-category">Web Development</span>
+          </div>
+          <h1 class="post-title">Building a Modern Web Application</h1>
+          <p class="post-subtitle">A comprehensive guide to creating responsive, accessible, and performant web applications using modern tools and techniques.</p>
+          <div class="post-author">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80" alt="Author" class="author-image">
+            <div class="author-info">
+              <span class="author-name">Katie Stoltz</span>
+              <span class="author-title">Software Developer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="featured-image">
+          <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=600&q=80" alt="Featured image">
+        </div>
+
+        <div class="post-content">
+          <p>Modern web development has evolved significantly over the past decade. With the rise of powerful frameworks, improved browser capabilities, and a focus on user experience, building web applications has become both more complex and more rewarding. In this post, I'll walk you through the essential steps to create a modern web application that's responsive, accessible, and performant.</p>
+          
+          <h2>The Foundation: HTML and CSS</h2>
+          <p>Every web application starts with HTML and CSS. HTML provides the structure, while CSS handles the presentation. Modern CSS has introduced powerful features like Flexbox and Grid, making it easier than ever to create complex layouts.</p>
+          
+          <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=400&q=80" alt="HTML and CSS code example">
+            <p class="image-caption">Modern CSS Grid layout example</p>
+          </div>
+          
+          <p>When building a modern web application, it's important to follow a mobile-first approach. This means designing for smaller screens first and then progressively enhancing the layout for larger screens. This approach ensures that your application looks great on all devices.</p>
+          
+          <h2>Adding Interactivity with JavaScript</h2>
+          <p>JavaScript is the language that brings interactivity to your web application. With modern JavaScript frameworks like React, Vue, and Angular, you can build complex user interfaces with relative ease.</p>
+          
+          <pre><code>// Example React component
+import React, { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+  
+  return (
+    &lt;div&gt;
+      &lt;p&gt;Count: {count}&lt;/p&gt;
+      &lt;button onClick={() => setCount(count + 1)}&gt;
+        Increment
+      &lt;/button&gt;
+    &lt;/div&gt;
+  );
+}</code></pre>
+          
+          <p>These frameworks provide a component-based architecture, making it easier to build and maintain complex applications. They also handle the virtual DOM, which improves performance by minimizing actual DOM manipulations.</p>
+          
+          <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=400&q=80" alt="JavaScript code example">
+            <p class="image-caption">Modern JavaScript development environment</p>
+          </div>
+          
+          <h2>Optimizing Performance</h2>
+          <p>Performance is a critical aspect of modern web applications. Users expect fast-loading pages and smooth interactions. Here are some key strategies for optimizing performance:</p>
+          
+          <ul>
+            <li>Minimize HTTP requests by combining CSS and JavaScript files</li>
+            <li>Optimize images using modern formats like WebP</li>
+            <li>Implement lazy loading for images and components</li>
+            <li>Use code splitting to load only the necessary JavaScript</li>
+            <li>Leverage browser caching for static assets</li>
+          </ul>
+          
+          <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=400&q=80" alt="Performance optimization">
+            <p class="image-caption">Performance metrics dashboard</p>
+          </div>
+          
+          <h2>Ensuring Accessibility</h2>
+          <p>Accessibility is not just a nice-to-have feature; it's a requirement for modern web applications. By following the Web Content Accessibility Guidelines (WCAG), you can ensure that your application is usable by people with disabilities.</p>
+          
+          <p>Key accessibility considerations include:</p>
+          
+          <ul>
+            <li>Using semantic HTML elements</li>
+            <li>Providing alternative text for images</li>
+            <li>Ensuring sufficient color contrast</li>
+            <li>Making sure your application is keyboard navigable</li>
+            <li>Testing with screen readers</li>
+          </ul>
+          
+          <h2>Conclusion</h2>
+          <p>Building a modern web application requires a solid understanding of HTML, CSS, and JavaScript, as well as knowledge of performance optimization and accessibility best practices. By following the guidelines outlined in this post, you'll be well on your way to creating web applications that are not only visually appealing but also functional, performant, and accessible to all users.</p>
+          
+          <div class="post-tags">
+            <span class="tag">Web Development</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Performance</span>
+            <span class="tag">Accessibility</span>
+          </div>
+        </div>
+        
+        <div class="post-footer">
+          <div class="share-buttons">
+            <h3>Share this post</h3>
+            <div class="social-links">
+              <a href="#" class="social-link">Twitter</a>
+              <a href="#" class="social-link">LinkedIn</a>
+              <a href="#" class="social-link">Facebook</a>
+            </div>
+          </div>
+          
+          <div class="related-posts">
+            <h3>Related Posts</h3>
+            <div class="related-posts-grid">
+              <a href="#" class="related-post">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&h=200&q=80" alt="Related post">
+                <h4>Getting Started with React</h4>
+              </a>
+              <a href="#" class="related-post">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&h=200&q=80" alt="Related post">
+                <h4>CSS Grid vs Flexbox</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+      <aside class="sidebar">
+        <div class="sidebar-widget">
+          <h3>Categories</h3>
+          <ul class="category-list">
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">AI & Machine Learning</a></li>
+            <li><a href="#">Programming</a></li>
+            <li><a href="#">Best Practices</a></li>
+          </ul>
+        </div>
+        
+        <div class="sidebar-widget">
+          <h3>Recent Posts</h3>
+          <ul class="recent-posts">
+            <li>
+              <a href="#">
+                <span class="post-title">Getting Started with Web Development</span>
+                <span class="post-date">March 15, 2024</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="post-title">The Future of AI</span>
+                <span class="post-date">March 10, 2024</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="post-title">Best Practices for Clean Code</span>
+                <span class="post-date">March 5, 2024</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html> 

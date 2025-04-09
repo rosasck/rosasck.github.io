@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Blog - StoltzStack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/blog.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <a href="index.html" class="logo">StoltzStack</a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="blog.html" class="nav-link active">Blog</a>
+          <a href="tools.html" class="nav-link">Tools</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="blog-container">
+        <div class="blog-header">
+          <h1>Blog</h1>
+          <p>Insights, tutorials, and resources for web developers and designers.</p>
+        </div>
+
+        <div class="blog-filters">
+          <div class="search-container">
+            <input type="text" placeholder="Search posts..." class="search-input">
+            <button class="search-button">Search</button>
+          </div>
+          <div class="category-filters">
+            <button class="category-btn active">All</button>
+            <button class="category-btn">Web Development</button>
+            <button class="category-btn">Design</button>
+            <button class="category-btn">Tools</button>
+            <button class="category-btn">Tutorials</button>
+          </div>
+        </div>
+
+        <div class="blog-grid">
+          <article class="blog-card">
+            <div class="blog-card-image">
+              <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
+              <span class="category-tag">Web Development</span>
+            </div>
+            <div class="blog-card-content">
+              <div class="blog-meta">
+                <span class="blog-date">April 5, 2024</span>
+                <span class="blog-read-time">8 min read</span>
+              </div>
+              <h2>Building a Modern Web Application</h2>
+              <p>A comprehensive guide to creating responsive, accessible, and performant web applications using modern tools and techniques.</p>
+              <a href="example-blog-post.html" class="read-more">Read More</a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-card-image">
+              <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
+              <span class="category-tag">Tutorials</span>
+            </div>
+            <div class="blog-card-content">
+              <div class="blog-meta">
+                <span class="blog-date">April 2, 2024</span>
+                <span class="blog-read-time">5 min read</span>
+              </div>
+              <h2>Getting Started with Web Development</h2>
+              <p>Learn the basics of HTML, CSS, and JavaScript to start your web development journey. Discover the fundamental concepts that will help you build modern websites.</p>
+              <a href="blog-post-template.html" class="read-more">Read More</a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-card-image">
+              <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
+              <span class="category-tag">Design</span>
+            </div>
+            <div class="blog-card-content">
+              <div class="blog-meta">
+                <span class="blog-date">March 28, 2024</span>
+                <span class="blog-read-time">6 min read</span>
+              </div>
+              <h2>The Future of AI</h2>
+              <p>Exploring the latest developments in artificial intelligence and machine learning. Understanding how these technologies are shaping our future.</p>
+              <a href="blog-post-template.html" class="read-more">Read More</a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-card-image">
+              <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
+              <span class="category-tag">Web Development</span>
+            </div>
+            <div class="blog-card-content">
+              <div class="blog-meta">
+                <span class="blog-date">March 25, 2024</span>
+                <span class="blog-read-time">7 min read</span>
+              </div>
+              <h2>Best Practices for Clean Code</h2>
+              <p>Tips and tricks for writing maintainable and efficient code. Learn how to write code that's easy to understand and maintain.</p>
+              <a href="blog-post-template.html" class="read-more">Read More</a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-card-image">
+              <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
+              <span class="category-tag">Tools</span>
+            </div>
+            <div class="blog-card-content">
+              <div class="blog-meta">
+                <span class="blog-date">March 20, 2024</span>
+                <span class="blog-read-time">4 min read</span>
+              </div>
+              <h2>Essential Web Development Tools</h2>
+              <p>A curated list of the most useful tools for web developers. From code editors to browser extensions, these tools will help you work more efficiently.</p>
+              <a href="blog-post-template.html" class="read-more">Read More</a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-card-image">
+              <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
+              <span class="category-tag">Design</span>
+            </div>
+            <div class="blog-card-content">
+              <div class="blog-meta">
+                <span class="blog-date">March 15, 2024</span>
+                <span class="blog-read-time">5 min read</span>
+              </div>
+              <h2>Creating Accessible Websites</h2>
+              <p>Learn how to make your websites accessible to all users, including those with disabilities. Follow these guidelines to ensure your site is usable by everyone.</p>
+              <a href="blog-post-template.html" class="read-more">Read More</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="pagination">
+          <a href="#" class="pagination-btn active">1</a>
+          <a href="#" class="pagination-btn">2</a>
+          <a href="#" class="pagination-btn">3</a>
+          <a href="#" class="pagination-btn next">Next</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html> 
