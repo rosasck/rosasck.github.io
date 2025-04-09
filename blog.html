@@ -1,0 +1,65 @@
+---
+layout: default
+title: Blog
+stylesheet: blog
+---
+
+<div class="blog-container">
+  <div class="blog-header">
+    <h1>Blog</h1>
+    <p>Explore our latest articles on AI-assisted development, AI tools and applications, software engineering practices, and AI research.</p>
+  </div>
+
+  <div class="blog-filters">
+    <div class="search-container">
+      <input type="text" placeholder="Search posts..." class="search-input">
+      <button class="search-button">Search</button>
+    </div>
+    <div class="category-filters">
+      <button class="category-btn active" data-category="all">All</button>
+      <button class="category-btn" data-category="ai-assisted-development">AI-Assisted Development</button>
+      <button class="category-btn" data-category="ai-tools-applications">AI Tools & Applications</button>
+      <button class="category-btn" data-category="software-engineering-practices">Software Engineering Practices</button>
+      <button class="category-btn" data-category="ai-research">AI Research</button>
+    </div>
+  </div>
+
+  <div class="blog-grid">
+    {% for post in site.posts %}
+    <article class="blog-card" data-category="{{ post.categories | first | default: 'web-development' }}">
+      <a href="{{ post.url }}" class="blog-card-link">
+        <div class="blog-card-image">
+          <img src="{{ post.image | default: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80' }}" alt="{{ post.title }}">
+          {% assign category = post.categories | first | default: 'ai-assisted-development' %}
+          {% case category %}
+            {% when 'ai-assisted-development' %}
+              <span class="category-tag">AI-Assisted Development</span>
+            {% when 'ai-tools-applications' %}
+              <span class="category-tag">AI Tools & Applications</span>
+            {% when 'software-engineering-practices' %}
+              <span class="category-tag">Software Engineering Practices</span>
+            {% when 'ai-research' %}
+              <span class="category-tag">AI Research</span>
+            {% else %}
+              <span class="category-tag">AI-Assisted Development</span>
+          {% endcase %}
+        </div>
+        <div class="blog-card-content">
+          <div class="blog-meta">
+            <span class="blog-date">{{ post.date | date: "%B %d, %Y" }}</span>
+            <span class="blog-read-time">{{ post.read_time | default: "5 min" }} read</span>
+          </div>
+          <h2>{{ post.title }}</h2>
+          <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        </div>
+      </a>
+    </article>
+    {% endfor %}
+  </div>
+
+  <div class="pagination">
+    <a href="#" class="pagination-btn active">1</a>
+  </div>
+</div>
+
+<script src="/scripts/blog.js"></script> 

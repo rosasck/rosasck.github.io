@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<main class="blog-post-container">
+  <article class="blog-post">
+    {{ content }}
+  </article>
+  
+  <aside class="sidebar">
+    <div class="sidebar-widget">
+      <h3>Categories</h3>
+      <ul class="category-list">
+        <li><a href="/blog?category=ai-assisted-development">AI-Assisted Development</a></li>
+        <li><a href="/blog?category=ai-tools-applications">AI Tools & Applications</a></li>
+        <li><a href="/blog?category=software-engineering-practices">Software Engineering Practices</a></li>
+        <li><a href="/blog?category=ai-research">AI Research</a></li>
+      </ul>
+    </div>
+    
+    <div class="sidebar-widget">
+      {% include posts-section.html type='latest' %}
+    </div>
+  </aside>
+</main> 
