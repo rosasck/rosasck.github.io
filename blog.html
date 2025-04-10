@@ -37,16 +37,16 @@
             <button class="search-button">Search</button>
           </div>
           <div class="category-filters">
-            <button class="category-btn active">All</button>
-            <button class="category-btn">Web Development</button>
-            <button class="category-btn">Design</button>
-            <button class="category-btn">Tools</button>
-            <button class="category-btn">Tutorials</button>
+            <button class="category-btn active" data-category="all">All</button>
+            <button class="category-btn" data-category="web-development">Web Development</button>
+            <button class="category-btn" data-category="ai-ml">AI & Machine Learning</button>
+            <button class="category-btn" data-category="programming">Programming</button>
+            <button class="category-btn" data-category="best-practices">Best Practices</button>
           </div>
         </div>
 
         <div class="blog-grid">
-          <article class="blog-card">
+          <article class="blog-card" data-category="web-development">
             <div class="blog-card-image">
               <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
               <span class="category-tag">Web Development</span>
@@ -62,10 +62,10 @@
             </div>
           </article>
 
-          <article class="blog-card">
+          <article class="blog-card" data-category="programming">
             <div class="blog-card-image">
               <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
-              <span class="category-tag">Tutorials</span>
+              <span class="category-tag">Programming</span>
             </div>
             <div class="blog-card-content">
               <div class="blog-meta">
@@ -78,10 +78,10 @@
             </div>
           </article>
 
-          <article class="blog-card">
+          <article class="blog-card" data-category="ai-ml">
             <div class="blog-card-image">
               <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
-              <span class="category-tag">Design</span>
+              <span class="category-tag">AI & Machine Learning</span>
             </div>
             <div class="blog-card-content">
               <div class="blog-meta">
@@ -94,10 +94,10 @@
             </div>
           </article>
 
-          <article class="blog-card">
+          <article class="blog-card" data-category="best-practices">
             <div class="blog-card-image">
               <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
-              <span class="category-tag">Web Development</span>
+              <span class="category-tag">Best Practices</span>
             </div>
             <div class="blog-card-content">
               <div class="blog-meta">
@@ -110,10 +110,10 @@
             </div>
           </article>
 
-          <article class="blog-card">
+          <article class="blog-card" data-category="web-development">
             <div class="blog-card-image">
               <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
-              <span class="category-tag">Tools</span>
+              <span class="category-tag">Web Development</span>
             </div>
             <div class="blog-card-content">
               <div class="blog-meta">
@@ -126,10 +126,10 @@
             </div>
           </article>
 
-          <article class="blog-card">
+          <article class="blog-card" data-category="best-practices">
             <div class="blog-card-image">
               <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&h=600&q=80" alt="Blog post image">
-              <span class="category-tag">Design</span>
+              <span class="category-tag">Best Practices</span>
             </div>
             <div class="blog-card-content">
               <div class="blog-meta">
@@ -151,5 +151,6 @@
         </div>
       </div>
     </main>
+    <script src="scripts/blog.js"></script>
   </body>
 </html> 
