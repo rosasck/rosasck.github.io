@@ -17,7 +17,7 @@ image: /branding/posts/prompt-engineering.png
   <h1 class="post-title">The Developer's Guide to Prompt Engineering for Coding Assistants</h1>
   <p class="post-subtitle">Practical techniques to get dramatically better results from AI coding tools</p>
   <div class="post-author">
-    <img src="/branding/images/katie-solo.jpg" alt="Author" class="author-image">
+    <img src="/branding/images/katie-author.jpg" alt="Author" class="author-image">
     <div class="author-info">
       <span class="author-name">Katie Stoltz</span>
       <span class="author-title">Software Developer</span>

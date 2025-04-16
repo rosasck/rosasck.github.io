@@ -17,7 +17,7 @@ excerpt: "Exploring how software development has transformed from manual coding 
   <h1 class="post-title">The Evolution of Software Engineering: From IDEs to AI Agents</h1>
   <p class="post-subtitle">Exploring how software development has transformed from manual coding to AI-assisted development, and what the future holds for the industry.</p>
   <div class="post-author">
-    <img src="/branding/images/katie-solo.jpg" alt="Author" class="author-image">
+    <img src="/branding/images/katie-author.jpg" alt="Author" class="author-image">
     <div class="author-info">
       <span class="author-name">Katie Stoltz</span>
       <span class="author-title">Software Developer</span>
