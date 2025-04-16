@@ -17,7 +17,7 @@ excerpt: "A hands-on comparison of GitHub Copilot and Cursor, exploring their st
   <h1 class="post-title">Hands-On with AI Pair Programming: A Developer's Experience with Cursor and Copilot</h1>
   <p class="post-subtitle">A month-long experiment comparing two leading AI coding assistants on real-world projects.</p>
   <div class="post-author">
-    <img src="/branding/images/katie-solo.jpg" alt="Author" class="author-image">
+    <img src="/branding/images/katie-author.jpg" alt="Author" class="author-image">
     <div class="author-info">
       <span class="author-name">Katie Stoltz</span>
       <span class="author-title">Software Developer</span>
