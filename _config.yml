@@ -1,0 +1,29 @@
+title: Stoltz Stack
+description: Web development resources and tools
+baseurl: ""
+url: "https://rosasck.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title/
+
+# Collections
+collections:
+  tools:
+    output: true
+  blog:
+    output: true
+
+# Default front matter
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post" 
