@@ -1,11 +1,15 @@
 title: Stoltz Stack
 description: Web development resources and tools
 baseurl: ""
-url: "https://rosasck.github.io"
+url: "https://stoltzstack.com"
 
 # Build settings
 markdown: kramdown
 permalink: /blog/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
 
 # Collections
 collections:
@@ -26,4 +30,8 @@ defaults:
       path: "_posts"
       type: "posts"
     values:
-      layout: "post" 
+      layout: "post"
+
+# Feed settings
+feed:
+  path: feed.xml 
