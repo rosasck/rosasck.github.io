@@ -34,7 +34,7 @@ image: /branding/posts/cursor-modes.png
 
   <h2>Agent Mode: Your Overeager (But Helpful) Coding Buddy</h2>
 
-  <p>Agent mode is basically like having that super enthusiastic junior coworker who wants to write everything for you. You mention what you need, and they're already typing away.</p>
+  <p>Agent mode is basically like having that super enthusiastic intern who wants to write everything for you. You mention what you need, and they're already typing away.</p>
 
   <h3>Perfect for:</h3>
   <ul>
