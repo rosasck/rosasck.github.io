@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Making the Most of Cursor: When to Use Each Mode"
-date: 2025-04-16
+date: 2025-05-01
 read_time: 8 min
 categories: [ai-assisted-development]
 permalink: /blog/mastering-cursor-modes
