@@ -66,33 +66,33 @@ image: /branding/posts/mcp-explained.png
   <h2>MCP vs. Old-School APIs</h2>
 
   <div class="comparison-table">
-    <table>
+    <table style="border-collapse: collapse; width: 100%;">
       <thead>
         <tr>
-          <th>MCP</th>
-          <th>Traditional APIs</th>
+          <th style="border: 1px solid #ddd; padding: 8px;">MCP</th>
+          <th style="border: 1px solid #ddd; padding: 8px;">Traditional APIs</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>One protocol for everything</td>
-          <td>Different integration for each service</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">One protocol for everything</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">Different integration for each service</td>
         </tr>
         <tr>
-          <td>AI figures out what's available</td>
-          <td>Hard-coded connections</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">AI figures out what's available</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">Hard-coded connections</td>
         </tr>
         <tr>
-          <td>Two-way, ongoing communication</td>
-          <td>Usually one-off requests</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">Two-way, ongoing communication</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">Usually one-off requests</td>
         </tr>
         <tr>
-          <td>Consistent security approach</td>
-          <td>Security varies by API</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">Consistent security approach</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">Security varies by API</td>
         </tr>
         <tr>
-          <td>Add new tools without coding</td>
-          <td>New integrations = new code</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">Add new tools without coding</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">New integrations = new code</td>
         </tr>
       </tbody>
     </table>
