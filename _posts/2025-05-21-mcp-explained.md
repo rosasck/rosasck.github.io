@@ -3,7 +3,7 @@ layout: post
 title: "MCP Explained: The Game-Changer for AI Assistants"
 date: 2025-05-21
 read_time: 10 min
-categories: [ai-assisted-development]
+categories: [ai-tools-applications]
 permalink: /blog/mcp-explained
 excerpt: "A comprehensive guide to understanding the Model Context Protocol (MCP) and its impact on AI systems"
 image: /branding/posts/mcp-explained.png
